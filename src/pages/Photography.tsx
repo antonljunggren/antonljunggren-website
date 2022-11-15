@@ -51,7 +51,7 @@ const Photography: Component = () => {
                 >
                   <img
                     class='photo'
-                    src={ENV.VITE_API + 'photo/' + photo.id + '/image'}
+                    src={ENV.VITE_API + 'photo/' + photo.id + '/image/true'}
                     alt={photo.title}
                   />
                 </a>
