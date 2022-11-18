@@ -31,6 +31,8 @@ const navProps: NavProp[] = [
 const App: Component = () => {
   const Routes = useRoutes(routes);
 
+  document.getElementsByTagName('title')[0].remove();
+
   return (
     <div class='flex flex-col min-h-full justify-items-stretch'>
       <header>

@@ -27,7 +27,9 @@ const NavBar: Component<{ props: NavProp[] }> = ({ props }) => {
               )}
             </For>
           </div>
-          <div class='text-3xl w-auto md:w-1/3 text-center'>Anton Ljunggren</div>
+          <Link class='text-3xl w-auto md:w-1/3 text-center' href='/'>
+            Anton Ljunggren
+          </Link>
           <div class='hidden md:block w-1/3'></div>
           <div class='md:hidden flex items-center'>
             <button onclick={(e) => setShowMobileNav(!showMobileNav())}>
